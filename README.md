@@ -1,4 +1,4 @@
-### Projeto - EBAC
+### Projeto Vendas Globais Games - EBAC
 
 # Objetivo 
 Estou analisando e visualizando os dados, destacando o desempenho entre as colunas e os elementos mais relevantes para as vendas. Também estou verificando os valores mais altos, mais baixos e aqueles que se sobressaem em relação aos demais.
