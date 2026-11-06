@@ -36,4 +36,4 @@ A utilização desses dados é para identificar os games mais vendidos e regiõe
 3. Regiões: Analisando os dados, observei que os valores de vendas na América e na Europa são elevados, variando na casa dos milhões, com a América se destacando e apresentando ótimo desempenho em jogos populares. Já em outras regiões, como o Japão, os resultados foram inferiores.
 
 # Dashboard
-Looker Studio: https://datastudio.google.com/reporting/2bd349ac-a2bb-4338-9c4e-577a7eb8ec77
+Looker Studio: https://datastudio.google.com/reporting/001c0893-100c-459c-96f5-ac235175abb6
