@@ -1,31 +1,32 @@
-### Projeto Semantix - EBAC
+### Projeto Vendas Games Globais - EBAC – Escola Britânica de Artes Criativas e Tecnologia
 
 # Objetivo 
-Analisar os sinistros de trânsito registrados no Estado de São Paulo durante o mês de agosto de 2026, identificando a quantidade de ocorrências e sua distribuição entre as diferentes regiões.
+Estou analisando e visualizando os dados, destacando o desempenho entre as colunas e os elementos mais relevantes para as vendas. Também estou verificando os valores mais altos, mais baixos e aqueles que se sobressaem em relação aos demais.
 
 # Justificativa do uso dos dados
-A utilização desses dados é importante porque permite identificar os tipos de sinistros mais frequentes e compreender as regiões com maior concentração de ocorrências. Para isso, serão utilizados dados abertos do Estado de São Paulo, analisando informações como municípios, tipos de sinistros e quantidade de vítimas. O Python será utilizado para a exploração e o tratamento dos dados, enquanto o Looker Studio permitirá apresentar os resultados por meio de visualizações e dashboards.
+A utilização desses dados é para identificar os games mais vendidos e regiões com maior concentração de vendas. Serão utilizados dados abertos do Kaggle, analisando informações como regiões, tipos de gêneros e games. Python será empregado para explorar e tratar os dados, enquanto o Looker Studio permitirá apresentar os resultados por meio de visualizações e dashboards.
 
-# Dados Utilizados
+# Dados Utilizado
 
-- Fonte: Portal de Dados Abertos do Estado de São Paulo.
-- Link: https://dadosabertos.sp.gov.br/dataset/sinistros-infosiga
+- Fonte: Kaggle 
+- Link: https://www.kaggle.com/datasets/gregorut/videogamesales
 
 # Arquivos
-- sinistros_08-2026.csv
-- sinistros_tratados.csv
-- veiculos.csv
+- vendas_videogame.csv
+- vendasgames_limpos.csv
+- regiões.csv
 
 # Ferramentas Usadas
 - Python
 - Pandas
 - Looker Studio
-- PyCharm
+- Matplotlib
+- Seaboarn
 
 # Etapas
 - Importação dos dados.
-- Limpeza dos Dados.
 - Análise dos registros.
+- Limpeza dos Dados.
 - Criação dos arquivos em CSV.
 - Criação de dashboard interativo e explicativo no Looker Studio.
 
@@ -34,6 +35,10 @@ A utilização desses dados é importante porque permite identificar os tipos de
 2. Distribuição regional: A Baixada Santista, Campinas e Região Metropolitana de São Paulo apresentaram as maiores participações individuais no gráfico, com 9,2% cada.
 3. Vítimas e veículos: Foram contabilizadas 20.042 vítimas no período analisado.
 4. Tipos de sinistros: As colisões apareceram como uma das ocorrências mais frequentes na análise.
+
+1. Vendas por Jogos: Após a análise, observei que certos títulos, como os do Super Nintendo e do Wii, alcançaram vendas de milhões de unidades. Em comparação, jogos mais modernos apresentam números menores, mostrando que os jogos antigos tinham maior potencial de mercado.
+2. Quantidade ao longo dos anos: Analisei as vendas ao longo do tempo, mostrando uma evolução consistente com desempenho geralmente superior, embora tenha ocorrido uma queda nos valores em 2016.
+3. Regiões: Analisando os dados, observei que os valores de vendas na América e na Europa são elevados, variando na casa dos milhões, com a América se destacando e apresentando ótimo desempenho em jogos populares. Já em outras regiões, como o Japão, os resultados foram inferiores.
 
 # Dashboard
 Looker Studio: https://datastudio.google.com/reporting/2bd349ac-a2bb-4338-9c4e-577a7eb8ec77
