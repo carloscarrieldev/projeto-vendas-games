@@ -1,10 +1,10 @@
 ### Projeto Vendas Globais Games - EBAC
 
 # Objetivo 
-Estou analisando e visualizando os dados, destacando o desempenho entre as colunas e os elementos mais relevantes para as vendas. Também estou verificando os valores mais altos, mais baixos e aqueles que se sobressaem em relação aos demais.
+Analisar os dados de vendas de jogos e consoles, identificando padrões, tendências e diferenças de desempenho entre regiões, gêneros e plataformas.
 
 # Justificativa do uso dos dados
-A utilização desses dados é para identificar os games mais vendidos e regiões com maior concentração de vendas. Serão utilizados dados abertos do Kaggle, analisando informações como regiões, tipos de gêneros e games. Python será empregado para explorar e tratar os dados, enquanto o Looker Studio permitirá apresentar os resultados por meio de visualizações e dashboards.
+A utilização desses dados é para identificar os games mais vendidos e regiões com maior concentração de vendas. Serão utilizados dados abertos do Kaggle, analisando informações como regiões, tipos de gêneros e games. Python será empregado para explorar e tratar os dados, utilizando o Looker Studio permitindo apresentar os resultados por meio de visualizações e dashboards.
 
 # Dados Utilizado
 
