@@ -45,7 +45,6 @@ df_regiao = df.melt(
 df.to_csv('output/games/vendasgames_limpos.csv', index=False)
 df_regiao.to_csv('output/games/regiões.csv', index= False)
 
-
 # Visualizando tabela nova
 print('Tabela Atualizada:\n', pd.read_csv('output/games/vendasgames_limpos.csv').head(10))
 print(df.columns.tolist())
